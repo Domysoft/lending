@@ -1,0 +1,1 @@
+DRIVER={MySQL ODBC 3.51 Driver}; SERVER=localhost; DATABASE=cifer_lending; UID=root;PWD=; OPTION=3

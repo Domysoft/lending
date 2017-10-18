@@ -1,0 +1,61 @@
+- - - - - - - - - - - - - - - - MM Lending System Log Report - - - - - - - - - - - - - - - - 
+
+Changes type:
+
+	* = Logical Changes - Changes in the system functionality, logical/calculation fixes, invisible to end user.
+	$ = Graphical Changes - Changes in graphical apperance, Visible to the end user.
+	$* = Both logical ang graphical changes.
+	@ = New functionality added.
+
+
+
+Time and date		Type	Comments/Changes
+
+
+- - - - - - - - - - - - - - -  V 1.10.23.11- - - - - - - - - - - - - - - 
+23:50 - 10/23/2011      	$*	Created System Log file.
+00:48 - 10/23/2011		$*	Added auto calculate in the customer history balance.
+1:11  - 10/23/2011		$*	Omit the visiblity codes for "load back up".
+1:17  - 10/23/2011   		$	Edited designer's profile.
+1:27  - 10/23/2011   		$	Edited the help tutorial guide.
+
+
+- - - - - - - - - - - - - - -  V 1.10.31.11- - - - - - - - - - - - - - -  
+7:47  - 10/31/2011   		$*	Fixed auto zero on remittance if passdue is having a negative(-) balance to match to the running total with the total daily remittance.
+7:52  - 10/31/2011   		$ 	Added warning text to daily remittance for unapprove release.
+8:04  - 10/31/2011   		* 	Added hide_all() function before show_main in form load.
+8:09  - 10/31/2011   		$ 	Locked Area Name in daily remittance.
+8:10  - 10/31/2011   		$* 	Auto change total to '0.00' when changing the Area Name in daily remittance.
+8:42  - 10/31/2011   		$ 	Changed message box popout when clicking number of unapprove release on home.
+8:47  - 10/31/2011   		$*@ 	Added System Version on top of Customer Search and access the System Log file.
+9:43  - 10/31/2011		$*	Enable the clicking of System Version to view System Log.
+10:16 - 10/31/2011		$* 	Added auto resize function on System Log pop out.
+11:46 - 10/31/2011		$* 	Prevent all dropdown boxes from editing via keyboard.
+12:05 - 10/31/2011		$ 	Change refesh rate from clicking on restricted option (non-admin side).
+23:01 - 11/05/2011		$*	Set scrolltrack to true in all grid.
+
+
+- - - - - - - - - - - - - - -  V 1.11.21.11- - - - - - - - - - - - - - -
+5:50 AM 11/21/2011		$*	Change the amount into real amount loan without interest.
+6:30 AM 11/21/2011		$*	All query are sort by ledger except on customer search where query is sort by name
+7:31 AM 11/21/2011		$* 	If balance is negative it will forced to be 0
+7:34 AM 11/21/2011		$*	On Customer history, amount - principal amount.
+7:35 AM 11/21/2011		$*	Balance amount will not reflect on new loan in the system, it only reflect in the PN.
+
+
+- - - - - - - - - - - - - - - V 1.11.28.11 - - - - - - - - - - - - - - -
+7:35 AM 11/28/2011		$*@ 	Added load back up
+7:35 AM 11/28/2011		*	Filter client format on names.
+5:04 PM 12/4/2011		$*@	Added Ledger frame.
+
+
+- - - - - - - - - - - - - - - V 1.01.01.12 - - - - - - - - - - - - - - - 
+10:04 AM 1/1/2012		*	Change auto print release due to spooling problem. Changes made on priting executables.
+11:14 AM 1/1/2012		* 	Fixed release NUmber on home.
+12:14 PM 1/1/2012		$*	Added "cancel release" function.
+12:33 PM 1/1/2012		*	Remitannce on cancelled release is forced to zero.
+12:46 PM 1/1/2012		*$	Added close remarks on customer history to stop from query.
+
+
+Logs end - - - - - - - - - - - - - - -
+Copyright @ mr_penz Software Engineering

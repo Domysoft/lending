@@ -1,0 +1,4 @@
+1008, 1053.
+
+Edit remittence, hide box. 'done 10-31-11' 
+Add error log.

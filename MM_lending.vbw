@@ -1,0 +1,12 @@
+Main = 75, 75, 960, 480, C, 0, 0, 0, 0, C
+CustomerHistory = 0, 0, 0, 0, C, 25, 25, 818, 492, C
+EditPayment = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+EditRemittance = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+loading = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+LoginForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+SelectRelForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+loadBackUpForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+System_log = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+mbackup = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+system_lock = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ledger_form = 0, 0, 0, 0, C, 0, 0, 0, 0, C
